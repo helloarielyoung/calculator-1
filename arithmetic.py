@@ -7,8 +7,8 @@ def subtract(num1, num2):
     """Return the difference of two numbers
         subtracts num2 from num1
     """
-    sum = num1 - num2
-    return sum
+    difference = num1 - num2
+    return difference
 
 def multiply(num1, num2):
     """Return the product of two numbers
@@ -18,8 +18,11 @@ def multiply(num1, num2):
     return product
 
 def divide(num1, num2):
-    """Return the quotient of two numbers as a float"""
-    pass
+    """Return the quotient of two numbers as a float
+        Dividing num1 by num2
+    """
+    quotient = num1 / float(num2)
+    return quotient
 
 def square(num):
     """Return the square of a number"""
