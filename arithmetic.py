@@ -1,6 +1,7 @@
 def add(num1, num2):
     """Return the sum of two numbers"""
-    return 10
+    sum = num1 + num2
+    return sum
 
 def subtract(num1, num2):
     """Return the difference of two numbers"""
