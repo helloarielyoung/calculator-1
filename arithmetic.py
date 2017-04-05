@@ -11,6 +11,7 @@ def subtract(num1, num2):
     return difference
 
 def multiply(num1, num2):
+
     """Return the product of two numbers
         Multiplying num1 by num2
     """
@@ -36,8 +37,8 @@ def cube(num):
 
 def power(num, exponent):
     """Return num raised to the power of exponent"""
-    pow = num ** exponent
-    return pow
+    power = num ** exponent
+    return power
 
 def mod(num1, num2):
     """Return remainder of num1 divided by num2
