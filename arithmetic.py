@@ -40,5 +40,8 @@ def power(num, exponent):
     return pow
 
 def mod(num1, num2):
-    """Return remainder of num1 divided by num2"""
-    pass
+    """Return remainder of num1 divided by num2
+        mod stands for modulo
+    """
+    remainder = num1 % num2
+    return remainder
