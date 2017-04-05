@@ -4,8 +4,11 @@ def add(num1, num2):
     return sum
 
 def subtract(num1, num2):
-    """Return the difference of two numbers"""
-    pass
+    """Return the difference of two numbers
+        subtracts num2 from num1
+    """
+    sum = num1 - num2
+    return sum
 
 def multiply(num1, num2):
     """Return the product of two numbers"""
